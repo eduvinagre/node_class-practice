@@ -1,0 +1,27 @@
+{
+  "name": "node_class-practice",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier . --ignore-path .gitignore --write",
+    "lint": "eslint . --ignore-path .gitignore --fix",
+    "fix-style": "npm format && npm run lint",
+    "prepare": "husky"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.5.0",
+    "eslint": "^9.5.0",
+    "globals": "^15.6.0",
+    "husky": "^9.0.11",
+    "nodemon": "^3.1.4",
+    "prettier": "3.3.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
