@@ -2,6 +2,7 @@
   "name": "node_class-practice",
   "version": "1.0.0",
   "main": "app.js",
+  "type": "module",
   "dependencies": {
     "lodash": "^4.17.21"
   },
@@ -13,7 +14,7 @@
     "prepare": "husky"
   },
   "keywords": [],
-  "author": "",
+  "author": "Eduardo Vinagre",
   "license": "ISC",
   "description": "",
   "devDependencies": {
