@@ -2,6 +2,9 @@
   "name": "node_class-practice",
   "version": "1.0.0",
   "main": "app.js",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "format": "prettier . --ignore-path .gitignore --write",
@@ -18,10 +21,9 @@
     "eslint": "^9.5.0",
     "globals": "^15.6.0",
     "husky": "^9.0.11",
+    "lint-staged": "^15.2.7",
     "nodemon": "^3.1.4",
     "prettier": "3.3.2"
   },
-  "dependencies": {
-    "lodash": "^4.17.21"
-  }
+  "lint-staged": { "*.js": "npm run fix-style" }
 }
